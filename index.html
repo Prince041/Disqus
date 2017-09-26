@@ -17,15 +17,22 @@
 </head>
 
 <body>
+		<!-- For your code use directory from /img  /css  /font  and stuff like that since we will hosting
+   				on 000webhost and we have to avoid file directory misatch		
 
-    <!-- Start your project here-->
+				For example, if you want to add a picture always paste it in /img/media/ and while pushing the
+				code make sure you edit the directory as /img/media/blah.png and not as /home/your_username/img/media/blah.png ..
+   			-->
 
-    <!--Navbar-->
+    										<!-- Start your project here-->
+
+   													 <!--Navbar-->
+
 		<nav class="navbar navbar-expand-lg navbar-dark indigo">
 
 		    <!-- Navbar brand -->
-		   	<img src="/home/zeth48/Downloads/d_logo.png" width="50" height="50">
-   				
+		   	<img src="/home/zeth48/Disqus/img/media/d_logo.png" width="50" height="50">		
+
 		   <a id="navbar-brand1" href="#"><strong>Disqus</strong></a> 
 
 		    <!-- Collapse button -->
@@ -54,7 +61,69 @@
 		    <!-- Collapsible content -->
 
 		</nav>
-<!--/.Navbar-->
+
+										   <!--/.Navbar-->
+
+
+										<!--Carousel Wrapper-->
+
+	<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+	    <!--Indicators-->
+	    <ol class="carousel-indicators">
+	        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+	        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+	        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+	    </ol>
+	    <!--/.Indicators-->
+	    <!--Slides-->
+		    <div class="carousel-inner" role="listbox">
+	        <div class="carousel-item active">
+	            <div class="view hm-black-light">
+	                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide" height="400">
+	                <div class="mask"></div>
+	            </div>
+	            <div class="carousel-caption">
+	                <h3 class="h3-responsive">Light mask</h3>
+	                <p>First text</p>
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <!--Mask color-->
+	            <div class="view hm-black-strong">
+	                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide" height="400">
+	                <div class="mask"></div>
+	            </div>
+	            <div class="carousel-caption">
+	                <h3 class="h3-responsive">Strong mask</h3>
+	                <p>Aman Bhosdiwala</p>
+	            </div>
+	        </div>
+	        <div class="carousel-item">
+	            <!--Mask color-->
+	            <div class="view hm-black-slight">
+	                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide" height="400">
+	                <div class="mask"></div>
+	            </div>
+	            <div class="carousel-caption">
+	                <h3 class="h3-responsive">Slight mask</h3>
+	                <p>Third text</p>
+	            </div>
+	        </div>
+	    	</div>
+	    <!--/.Slides-->
+	    <!--Controls-->
+	    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+	        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	        <span class="sr-only">Previous</span>
+	    </a>
+	    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+	        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	        <span class="sr-only">Next</span>
+	    </a>
+	    <!--/.Controls-->
+	</div>
+<!--/.Carousel Wrapper-->
+
 
 
     <!-- /Start your project here-->
